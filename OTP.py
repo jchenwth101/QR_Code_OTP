@@ -25,9 +25,9 @@ import time
 
 
 def generate_qrcode(key, uri):
-    # Create a qr code class to specify QR code parameters
-    # Sources: https://www.geeksforgeeks.org/python-generate-qr-code-using-pyqrcode-module/?ref=lbp
-    # https://pypi.org/project/qrcode/
+    # Create a qr code class to specify QR code parame
+    # https://pypi.org/pters
+    
     qr = qrcode.QRCode(
         version=6,
         error_correction=qrcode.constants.ERROR_CORRECT_M,
